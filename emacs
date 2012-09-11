@@ -22,12 +22,12 @@
 
 (setq auto-mode-alist (cons '("\\.hql$" . sql-mode) auto-mode-alist))
 
-(add-to-list 'load-path "/Users/matt/.emacs.d/color-theme/")
+(add-to-list 'load-path "~/.emacs.d/color-theme/")
 (require 'color-theme)
 (eval-after-load "color-theme"
   '(progn
      (color-theme-initialize)
      (color-theme-hober)))
 
-(add-to-list 'load-path "/Users/matt/.emacs.d/color-theme/themes/emacs-color-theme-solarized")
+(add-to-list 'load-path "~/.emacs.d/color-theme/themes/emacs-color-theme-solarized")
 (require 'color-theme-solarized)
