@@ -29,5 +29,3 @@
      (color-theme-initialize)
      (color-theme-hober)))
 
-(add-to-list 'load-path "~/.emacs.d/color-theme/themes/emacs-color-theme-solarized")
-(require 'color-theme-solarized)
